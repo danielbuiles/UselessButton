@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body{
+  background: #211C56;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+}
+
+div{
+  display: block;
+  justify-content: center;
+  align-content: center;
+}
+
+div .anuncio{
+  background: #B9B4F1;
+  font-family : inherit;
+  margin-left:20%; 
+  padding: 15px 32px;
+  width: 60%;
+  font-size: 15px;
+  border: none;
+}
+
+div p{
+  color: white;
+  margin-top: 5%;
+}
+
+div input{
+  margin-top: 5%;
+  margin-left: 30%;
+  padding: 3px 14px;
+}
+
+div .password{
+  margin-top: 20px;
+  margin-left: 40%;
+  border: 2px solid #000;
+  background: #B9B4F1;
+}
